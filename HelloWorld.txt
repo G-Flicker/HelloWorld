@@ -1,2 +1,3 @@
 Hello World!
 Hello Everyone!
+Creating a new branch is quick!
