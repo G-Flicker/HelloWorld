@@ -1,0 +1,47 @@
+actor_net_lr: 0.0001
+agent_type: attention
+batch_size: 128
+beam_width: 10
+capacity: 20
+critic_net_lr: 0.0001
+data_dir: data
+decode_len: 16
+demand_max: 9
+dropout: 0.1
+embedding_dim: 128
+entropy_coedd: 0.0
+forget_bias: 1.0
+gpu: 0
+hidden_dim: 128
+infer_type: batch
+input_dim: 3
+is_train: False
+load_path: 
+log_dir: logs/vrp10-2019-09-06_18-12-56
+log_interval: 20
+mask_glimpses: True
+mask_pointer: True
+max_grad_norm: 2.0
+model_dir: ./logs/vrp10-2019-09-06_17-53-00/checkpoint
+n_cust: 10
+n_glimpses: 0
+n_nodes: 11
+n_process_blocks: 3
+n_train: 2600
+random_seed: 24601
+rnn_layers: 1
+save_interval: 100
+stdout_print: True
+tanh_exploration: 10
+task: vrp10
+task_name: vrp
+test_interval: 20
+test_size: 100
+use_tanh: False
+随机数种子为:  24601
+花费 19.612560033798218秒 建立代理.
+评估开始
+在批处理模式中 greedy 的平均值: 7.8318376541137695 -- std 1.659680724143982 -- time 2.229041576385498 s
+在批处理模式中 beam_search 的平均值: 7.467243194580078 -- std 1.6535463333129883 -- time 1.1249916553497314 s
+##################################################################
+总时间为： 00:00:03
